@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn adm_railway.wsgi
